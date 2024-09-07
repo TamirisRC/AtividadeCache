@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+        <p>Não tem conta? <a href="/cadastro">Se registre aqui</a></p>
+    </div>
+    <script src="/public/login.js"></script>
+</body>
+</html>

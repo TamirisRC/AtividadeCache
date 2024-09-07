@@ -1,0 +1,114 @@
+/* Estilização geral do corpo e HTML */
+html, body {
+    height: 100%; /* Define a altura de html e body para 100% da altura da viewport */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    color: #333; /* Cor padrão do texto */
+    background-color: #e4e4e4e6; /* Cor de fundo clara */
+  }
+  
+  /* Estilização do cabeçalho */
+  header {
+    background-color: #000000; /* Cor de fundo azul do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno do cabeçalho */
+  }
+  
+  nav {
+    max-width: 1200px; /* Largura máxima do nav */
+    margin: 0 auto; /* Centraliza o nav */
+  }
+  
+  .nav-list {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens */
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove padding padrão */
+  }
+  
+  .nav-list li {
+    margin: 0 15px; /* Espaço entre os itens */
+  }
+  
+  .nav-list a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-size: 1.2em; /* Tamanho da fonte dos links */
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+  }
+  
+  /* Estilização do conteúdo principal */
+  main {
+    padding: 20px; /* Espaçamento interno do main */
+  }
+  
+  .cards {
+    display: flex; /* Alinha os cards horizontalmente */
+    flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte */
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: center; /* Centraliza os cards */
+  }
+  
+  .card {
+    background-color: #ffffff; /* Cor de fundo do card */
+    border-radius: 8px; /* Bordas arredondadas do card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Largura do card */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse os limites do card */
+  }
+  
+  .card-img {
+    width: 100%; /* Faz a imagem preencher o card */
+    height: auto; /* Ajusta a altura da imagem automaticamente */
+  }
+  
+  .card-body {
+    padding: 15px; /* Espaçamento interno do corpo do card */
+  }
+  
+  .card-title {
+    margin: 0 0 10px; /* Remove margem superior e adiciona margem inferior */
+    font-size: 1.5em; /* Tamanho da fonte do título */
+    color: #000000; /* Cor do título */
+  }
+  
+  .card-description {
+    margin: 0 0 15px; /* Remove margem superior e adiciona margem inferior */
+    color: #666; /* Cor do texto da descrição */
+  }
+  
+  .btn {
+    background-color: #666; /* Cor de fundo verde do botão */
+    border: none; /* Remove a borda padrão do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 1em; /* Tamanho da fonte do botão */
+    border-radius: 4px; /* Bordas arredondadas do botão */
+    cursor: pointer; /* Mostra um cursor de mão ao passar o mouse */
+    display: block; /* Faz o botão ocupar toda a largura disponível */
+    margin-top: 10px; /* Espaço acima do botão */
+  }
+  
+  .btn:hover {
+    background-color: #666; /* Cor do botão ao passar o mouse */
+  }
+  
+  /* Estilização do rodapé */
+  footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno do rodapé */
+    background-color: #000000; /* Cor de fundo azul do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    position: absolute; /* Fixa o rodapé na parte inferior da página */
+    bottom: 0;
+    width: 100%; /* Largura total do rodapé */
+  }
+  
+  footer p {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+  }
+  

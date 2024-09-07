@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário para Imobiliaria</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/stylescadastro.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <h2 class="text-center">Cadastro:</h2>
+                <form id="cadastroForm" method="POST" action="/cadastro">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="idade">Idade</label>
+                        <input type="number" class="form-control" id="idade" name="idade" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="number" class="form-control" id="senha" name="senha" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sexo">Sexo</label>
+                        <select class="form-control" id="sexo" name="sexo" required>
+                            <option value="">Selecione</option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cep">CEP</label>
+                        <input type="text" class="form-control" id="cep" name="cep" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="logradouro">Logradouro</label>
+                        <input type="text" class="form-control" id="logradouro" name="logradouro" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bairro">Bairro</label>
+                        <input type="text" class="form-control" id="bairro" name="bairro" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" class="form-control" id="cidade" name="cidade" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="estado">Estado</label>
+                        <input type="text" class="form-control" id="estado" name="estado" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+                </form>
+                <div class="text-center mt-3">
+                    <a href="/login">Já tem uma conta? Faça login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/public/form.js"></script>
+    <script src="/public/script.js"></script>
+</body>
+</html>

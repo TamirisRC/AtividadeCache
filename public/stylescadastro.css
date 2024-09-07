@@ -1,0 +1,102 @@
+/* Estilização geral do corpo e HTML */
+html, body {
+  height: 100%; /* Define a altura de html e body para 100% da altura da viewport */
+  margin: 0; /* Remove a margem padrão do body */
+  padding: 0; /* Remove o padding padrão do body */
+}
+
+/* Estilização geral do corpo */
+body {
+  background-image: url('NoSql.png');
+  background-size: cover; /* Faz com que a imagem cubra toda a área visível da página */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  color: #63f1f9; /* Cor das fontes */
+  min-height: 100vh; /* Garante que o corpo sempre ocupe a altura total da tela */
+  display: flex; /* Usando flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilização do container */
+.container {
+  background-color: rgba(3, 20, 37, 0.9); /* Fundo do container */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espaçamento interno */
+  width: 100%; /* Faz com que o container ocupe toda a largura disponível */
+  max-width: 800px; /* Define uma largura máxima para o container */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+  /* Ajusta a altura automaticamente conforme o conteúdo */
+  min-height: auto; /* Ajusta a altura com base no conteúdo */
+  max-height: 90vh; /* Limita a altura máxima do container para não ultrapassar a viewport */
+  overflow: auto; /* Adiciona barras de rolagem se o conteúdo exceder a altura */
+}
+
+/* Estilização dos títulos */
+h2 {
+  color: #63f1f9; /* Cor do título */
+  margin-bottom: 20px;
+  text-align: center; /* Centraliza o texto */
+  font-weight: bold; /* Deixa o título em negrito */
+  font-size: 25px; /* Tamanho da fonte do título */
+}
+
+/* Estilização dos campos de formulário */
+.form-group label {
+  font-weight: bold; /* Labels em negrito */
+  color: #63f1f9; /* Cor das labels */
+  display: block; /* Faz com que as labels sejam blocos */
+  margin-bottom: 5px; /* Adiciona espaço abaixo das labels */
+  width: auto; /* Ajusta a largura das labels */
+  font-size: 15px; /* Tamanho da fonte das labels */
+}
+
+.form-control {
+  border-radius: 4px; /* Bordas arredondadas dos campos */
+  border: 1px solid #ced4da; /* Borda padrão */
+  padding: 10px; /* Espaçamento interno */
+  background-color: #ffffff; /* Cor de fundo das caixas de texto */
+  color: #000000; /* Cor do texto dentro das caixas de texto */
+  width: 100%; /* Faz os campos preencherem o container */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+}
+
+.form-control:focus {
+  border-color: #63f1f9; /* Cor da borda ao focar */
+  box-shadow: 0 0 0 0.2rem rgba(99, 243, 249, 0.25); /* Sombra ao focar */
+}
+
+/* Estilização dos botões */
+.btn-primary {
+  background-color: #63f1f9; /* Cor de fundo do botão */
+  border: none; /* Remove a borda padrão */
+  border-radius: 4px; /* Bordas arredondadas do botão */
+  padding: 10px 20px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  color: #031425; /* Cor do texto do botão */
+  cursor: pointer; /* Mostra um cursor de mão ao passar o mouse */
+  display: block; /* Garante que o botão seja tratado como bloco */
+  margin: 20px auto; /* Centraliza horizontalmente com margens automáticas e adiciona espaço acima e abaixo */
+}
+
+.btn-primary:hover {
+  background-color: #4dc2c1; /* Cor de fundo ao passar o mouse */
+  color: #031425; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilização dos links */
+a {
+  color: #63f1f9; /* Cor dos links */
+  text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+a:hover {
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Estilização do texto dos parágrafos */
+p {
+  color: #63f1f9; /* Cor do texto do parágrafo */
+}

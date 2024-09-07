@@ -1,0 +1,33 @@
+{
+  "name": "perfomnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "express-handlebars": "^8.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0",
+    "node-cache": "^5.1.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.0.2"
+  }
+}
